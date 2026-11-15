@@ -1,0 +1,22 @@
+project:
+  type: default
+
+lang: es
+bibliography: references.bib
+csl: ieee.csl
+
+format:
+  pdf:
+    documentclass: IEEEtran
+    classoption: conference
+    number-sections: true
+    colorlinks: false
+    keep-tex: true
+    fig-cap-location: bottom
+    tbl-cap-location: top
+    pdf-engine: pdflatex
+
+execute:
+  echo: false
+  warning: false
+  message: false
