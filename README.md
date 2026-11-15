@@ -116,6 +116,6 @@ El PDF entregado se corresponde con el manuscrito y las figuras del repositorio.
 4. La latencia presentada en el artículo corresponde a la primera finalización del procesamiento, no al tiempo completo hasta confirmar.
 5. La ausencia de ACK no es una modalidad oficial separada denominada “Unconfirmed Delivery”; es una política del consumidor que deja mensajes sin confirmar y permite reentregas.
 
-## Integridad y seguridad
+## Alcance de los archivos publicados
 
-No incluir credenciales, tokens, archivos `.env`, claves privadas ni datos personales. Los registros publicados no contienen credenciales de acceso. Antes de publicar, revisar el contenido y tamaño del CSV y confirmar que el repositorio sea público según las instrucciones de la asignatura.
+El repositorio reúne el manuscrito, los datos observados y los componentes de software utilizados como apoyo para el experimento. Las cifras y conclusiones del artículo se limitan a las 37 corridas verificables realizadas en el emulador local. El código permite consultar el procedimiento y, si se desea realizar una nueva prueba, generar una campaña independiente; una nueva ejecución no modifica los resultados históricos incluidos en `results.csv`.
